@@ -192,5 +192,4 @@ I look forward to expanding this project further and exploring more advanced AWS
 ### **Project Files**
 - **index.html**: The main website file hosted in the S3 bucket.
 - **bucket-policy.json**: The S3 bucket policy configuration for public access.
-- **cloudfront-distribution-config.json**: Configuration details for the CloudFront distribution.
-- **waf-configuration.json**: Rules and settings used in AWS WAF.
+- **Project1WAF.json**: Rules and settings used in AWS WAF.
