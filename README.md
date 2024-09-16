@@ -7,7 +7,8 @@ Welcome to my first cloud project, where I combined several core AWS services to
 The project serves as a **proof of concept** of how cloud technologies can transform even a simple static website into a secure, globally optimized platform.
 
 This is my simple architecture.
-![Project Architecture](images/architecture-diagram.png)
+
+![Project Architecture](Screenshots/Architecture.jpg)
 
 
 ---
