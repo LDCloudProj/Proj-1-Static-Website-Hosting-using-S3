@@ -45,13 +45,13 @@ Below is a breakdown of each service and how it contributes to the overall archi
    - Enabled **Static Website Hosting** in the bucket settings.
    - Set the **index.html** file as the main entry point (home page).
 
-  ![Screenshot 1][Screenshots/1.png]
+  ![Screenshot 1](Screenshots/1.png)
 
 2. **Bucket Permissions**:
    - Configured **Bucket Policy** to allow CloudFront to access the static files while keeping the bucket private from public access.
    - Created a JSON-based bucket policy granting CloudFront permission to retrieve files from S3.
   
-![Screenshot 2][Screenshots/2.png]
+![Screenshot 2](Screenshots/2.png)
 
 3. **Versioning**:
    - Enabled **bucket versioning** to maintain multiple versions of objects and prevent accidental overwrites.
@@ -62,7 +62,7 @@ Below is a breakdown of each service and how it contributes to the overall archi
 
 Here is the objects in my buckets. 
 
-![Screenshot 3][Screenshots/3.png]
+![Screenshot 3](Screenshots/3.png)
 
 ---
 
@@ -82,7 +82,7 @@ While **CloudFront caching** is in place to optimize performance, I plan to impl
   - Configured **HTTPS** for secure content delivery, ensuring that all traffic is encrypted.
   - Set up **cache behavior** for different content types to reduce server load and speed up delivery.
 
-![Screenshot 5][Screenshots/5.png]
+![Screenshot 5](Screenshots/5.png)
 
 **Key Considerations**:
    - **High Availability**: CloudFront automatically provides high availability by caching content at multiple edge locations.
@@ -91,7 +91,7 @@ While **CloudFront caching** is in place to optimize performance, I plan to impl
 
 Here is the website hosted by s3 using cloudfront.
 
-![Screenshot 6][Screenshots/6.png]
+![Screenshot 6](Screenshots/6.png)
 
 ---
 
@@ -110,7 +110,7 @@ Here is the website hosted by s3 using cloudfront.
      - **Amazon IP Reputation List**: Blocks requests from known malicious IPs.
      - **Anonymous IP List**: Blocks traffic from anonymized networks like Tor and VPNs.
 
-![Screenshot 4][Screenshots/458230259_1514641815830236_1776100885933675242_n.png]
+![Screenshot 4](Screenshots/458230259_1514641815830236_1776100885933675242_n.png)
 
 3. **Custom Rules (Optional)**:
    - For future scalability, I plan to create custom WAF rules to handle specific IP ranges and HTTP methods.
@@ -175,7 +175,7 @@ This project provided a deep dive into the world of cloud computing, and the res
 I look forward to expanding this project further and exploring more advanced AWS features. 
 
 **Here is the link of my static website**
-https://d3fig5jntdnqv0.cloudfront.net/
+[here](https://d3fig5jntdnqv0.cloudfront.net/)
 
 ---
 
